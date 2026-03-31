@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+    src: url(./fontes/Bitcount.ttf);
+    font-family: "Bitcount";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Bitcount";
+}
+
+
+.custom-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     font-family: "Bitcount";
+}
+
+
+.brand-flex {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 5%;
+     font-family: "Bitcount";
+}
+
+.brand-flex h1 {
+    margin: 0;
+    font-size: 22px;
+     font-family: "Bitcount";
+}
+
+.slogan {
+    font-size: 12px;
+    opacity: 0.8;
+     font-family: "Bitcount";
+}
+
+
+.nav-flex {
+    display: flex;
+    gap: 15px;
+    margin-left: 50%;
+     font-family: "Bitcount";
+}
+
+
+.search-flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+     font-family: "Bitcount";
+}
+
+.corpo {
+    margin-inline: 50px;
+     font-family: "Bitcount";
+
+}
+
+.card {
+    background-color: wheat;
+     font-family: "Bitcount";
+
+}
+
+.rodape {
+    margin-inline: 50px;
+    text-align: center;
+    margin-top: 8%;
+     font-family: "Bitcount";
+}
+
+#icon {
+    color: black;
+    font-size: 48px;
+
+
+}
+
+#tabela {
+    border: 2px solid black;
+    width: 95%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    margin: 0 auto;
+     font-family: "Bitcount";
+
+}
+
+#h1 {
+    margin-left: 3%;
+     font-family: "Bitcount";
+}
