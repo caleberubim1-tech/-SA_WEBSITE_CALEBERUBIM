@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 @font-face {
     src: url(./fontes/Bitcount.ttf);
     font-family: "Bitcount";
 }
-
 
 * {
     margin: 0;
@@ -14,14 +12,12 @@
     font-family: "Bitcount";
 }
 
-
 .custom-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: "Bitcount";
 }
-
 
 .brand-flex {
     display: flex;
@@ -43,7 +39,6 @@
     font-family: "Bitcount";
 }
 
-
 .nav-flex {
     display: flex;
     gap: 15px;
@@ -51,26 +46,14 @@
     font-family: "Bitcount";
 }
 
-
-/* .search-flex {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-     font-family: "Bitcount";
-     color: blueviolet;
-     background-color: violet;
-} */
-
 .corpo {
     margin-inline: 50px;
     font-family: "Bitcount";
-
 }
 
 .card {
     background-color: wheat;
     font-family: "Bitcount";
-
 }
 
 .rodape {
@@ -81,15 +64,12 @@
     padding: 30px 20px;
     font-size: 16px;
     position: relative;
-
 }
 
 #icon {
     color: black;
     font-size: 48px;
     margin: 5%;
-
-
 }
 
 #tabela {
@@ -114,7 +94,6 @@
     font-family: "Bitcount";
 }
 
-/* GRID LAYOUT PARA OS CARDS */
 .row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -126,16 +105,6 @@
 .col-md-4 {
     width: 100%;
 }
-
-/* 
-.card {
-    background-color: wheat;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    font-family: "Bitcount";
-} */
 
 .card:hover {
     transform: translateY(-5px);
@@ -152,13 +121,6 @@
     font-family: "Bitcount";
 }
 
-/* .card-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #333;
-    font-family: "Bitcount";
-} */
 
 .card-text {
     font-size: 14px;
@@ -167,19 +129,6 @@
 }
 
 
-@media (max-width: 768px) {
-    .row {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .row {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* FORMULÁRIO DE CONTATO */
 .form-contato {
     max-width: 600px;
     margin: 30px auto;
@@ -194,35 +143,6 @@
     display: flex;
     flex-direction: column;
 }
-
-/* .form-group label {
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #333;
-    font-family: "Bitcount";
-} */
-
-/* .form-group input,
-.form-group textarea {
-    padding: 12px;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    font-family: "Bitcount";
-    font-size: 14px;
-    transition: border-color 0.3s ease;
-} */
-
-/* .form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
-} */
-
-/* .form-group textarea {
-    resize: vertical;
-    min-height: 150px;
-} */
 
 .btn-enviar {
     width: 100%;
@@ -243,23 +163,6 @@
     box-shadow: 0 4px 8px rgba(0, 86, 179, 0.3);
 }
 
-/* CLASSE PARA A ÁREA DE MENSAGEM */
-/* .textarea-mensagem {
-    padding: 15px;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    font-family: "Bitcount";
-    font-size: 14px;
-    min-height: 300px;
-    resize: vertical;
-    transition: border-color 0.3s ease;
-} */
-
-/* .textarea-mensagem:focus {
-    outline: none;
-    border-color: #007bff;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
-} */
 #H1 {
     margin-left: 34%;
     font-family: "Bitcount";
@@ -272,4 +175,18 @@
     font-family: "Bitcount";
     font-size: 14px;
     min-height: 100px;
+}
+
+
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
 }
