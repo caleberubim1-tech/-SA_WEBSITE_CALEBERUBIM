@@ -9,57 +9,99 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-         <!-- IMPORTAÇÃO GOOGLE ICgapONS -->
+    <!-- IMPORTAÇÃO GOOGLE ICgapONS -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <!-- IMPORTAÇÃO FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        h1 {
+            color: wheat;
+        }
+    </style>
+    <style>
+        #hh1 {
+            color: black;
+        }
+    </style>
+
 </head>
 
 <body>
 
-     <header>
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark"> 
-        <div class="container-fluid custom-flex">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+            <div class="container-fluid custom-flex">
 
-            <a class="navbar-brand brand-flex" href="#">
-                <h1>PixelForge Studios</h1>
-                <span class="slogan">Onde ideias viram pixels lendários.</span>
-            </a>
+                <a class="navbar-brand brand-flex" href="#">
+                    <h1>PixelForge Studios</h1>
+                    <span class="slogan">Onde ideias viram pixels lendários.</span>
+                </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-flex">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./pagina2.html">Nossos Jogos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./pagina3.html">Nossos Protótipos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./contato.html">Contato</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pagina2.html">Nossos Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pagina3.html">Nossos Protótipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="corpo">
+
+        <h1 id="hh1">Fale Conosco</h1>
+
+        <form class="form-contato">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
             </div>
 
-        </div>
-    </nav>
-</header>
-   
-    <main>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required>
+            </div>
 
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required>
+            </div>
 
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <input id="mensagem" name="mensagem" class="textarea-mensagem" placeholder="Digite sua mensagem aqui..."
+                    required></input>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
     </main>
-   <br>
-    <br>    
+    <br>
+    <br>
     <hr>
     <footer class="rodape">
         <!-- parte de baixo do site -->
@@ -67,7 +109,7 @@
         <!-- p = paragrafos -->
         <p>Email: contato@pixelforge.com</p>
         <p>Telefone: (11) 1234-5678</p>
-        <p>© 2026 PixelForge Studios. Todos os direitos reservados.</p>
+        <p>©️ 2026 PixelForge Studios. Todos os direitos reservados.</p>
     </footer>
 </body>
 

@@ -10,12 +10,22 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 
-         <!-- IMPORTAÇÃO GOOGLE ICgapONS -->
+    <!-- IMPORTAÇÃO GOOGLE ICgapONS -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 
     <!-- IMPORTAÇÃO FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: wheat;
+        }
+    </style>
+    <style>
+        #hh1 {
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,33 +65,43 @@
     </header>
 
     <main class="corpo">
-        <h1 id="h1">Nossos Projetos</h1>
+        <h1 id="hh1">Nossos Cases de Sucesso</h1>
 
-        <img src="./img/Jogo1.png" alt="Jogo 1 - Aetherbound Quest" height="400px" width="300px">
-        <figcaption>
-            <!-- descrição da imagem -->
-            <h3>Um RPG de aventura onde os jogadores exploram mundos místicos conectados por portais mágicos,
-                enfrentando
-                criaturas lendárias e forjando alianças.</h3>
-        </figcaption>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Jogo1.png" class="card-img-top" alt="Jogo 1 - Aetherbound Quest" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Aetherbound Quest</h5>
+                        <p class="card-text">Um RPG de aventura onde os jogadores exploram mundos místicos conectados
+                            por portais mágicos, enfrentando criaturas lendárias e forjando alianças.</p>
+                    </div>
+                </div>
+            </div>
 
-        <img src="img/Jogo2.png" alt="Jogo 2 - Neon Drift Galaxy" height="400px" width="300px">
-        <figcaption>
-            <!-- descrição da imagem -->
-            <h3>Corridas futurísticas em ambientes neon cheios de velocidade, desafios e power-ups, com modo solo e
-                multiplayer.
-            </h3>
-        </figcaption>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Jogo2.png" class="card-img-top" alt="Jogo 2 - Neon Drift Galaxy" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Neon Drift Galaxy</h5>
+                        <p class="card-text">Corridas futurísticas em ambientes neon cheios de velocidade, desafios e
+                            power-ups, com modo solo e multiplayer.</p>
+                    </div>
+                </div>
+            </div>
 
-        <img src="./img/Jogo3.png" alt="Jogo 3 - Cipher Chronicles" height="400px" width="300px">
-        <figcaption>
-            <!-- descrição da imagem -->
-            <h3>Um jogo de quebra-cabeças e mistério em que o jogador decifra códigos antigos para desvendar segredos de
-                uma civilização perdida.</h3>
-        </figcaption>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/Jogo3.png" class="card-img-top" alt="Jogo 3 - Cipher Chronicles" height="250px">
+                    <div class="card-body">
+                        <h5 class="card-title">Cipher Chronicles</h5>
+                        <p class="card-text">Um jogo de quebra-cabeças e mistério em que o jogador decifra códigos
+                            antigos para desvendar segredos de uma civilização perdida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-   <br>
-    <br>    
     <hr>
     <footer class="rodape">
         <!-- parte de baixo do site -->
@@ -89,7 +109,7 @@
         <!-- p = paragrafos -->
         <p>Email: contato@pixelforge.com</p>
         <p>Telefone: (11) 1234-5678</p>
-        <p>© 2026 PixelForge Studios. Todos os direitos reservados.</p>
+        <p>©️ 2026 PixelForge Studios. Todos os direitos reservados.</p>
     </footer>
 </body>
 
